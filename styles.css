@@ -1,0 +1,23 @@
+/* body {
+    color: red;
+} */
+
+h1{
+    color: blue;
+}
+
+h2{
+    color:blueviolet;
+}
+
+/* by # we can select id from tags and 
+put specific css to tha tag only*/
+#lib-header
+{
+    color: gray;
+}
+ /* we can select class attribute with . */
+
+ .para{
+    color: brown;
+ }

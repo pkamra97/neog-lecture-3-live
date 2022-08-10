@@ -5,11 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adarsh balak</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
+<!--     
+<style>
+    body{
+        color: red;   implementing css using the style tag
+    }
 
-<h1>Prateek's component library</h1>
-<p>Attending neog.camp and i want to make a library which would
+    2nd way is using style attribute in tags
+    3rd way the most prefrred way is outside in a diff css file or a diff style sheet then importing style sheet in html file
+</style>     -->
+
+<!-- <h1 style="color: red;">Prateek's component library</h1> -->
+
+<h1 id="lib-header">Prateek's component library</h1>
+<p class="para">Attending neog.camp and i want to make a library which would
     make all my project's look consistent
 </p>
 
@@ -23,10 +35,10 @@
 </h2>
 <h3>this is the 3rd biggest heading</h3>
 
-<p>let me show you a normal text this is free flowing and will 
+<p class="para">let me show you a normal text this is free flowing and will 
     wrap up at the end like a paragraph
 </p>
-<small>This is a relatively smaller text</small>
+<small class="para">This is a relatively smaller text</small>
 <hr>
 
 <h2>@containers</h2>
@@ -132,6 +144,8 @@
         <li>social three</li>
     </ul>
 </footer>
+
+<!--this last div is for a vertical height from the end of page-->
 
 <div style ="height:30vh;"></div>    
 </body>
