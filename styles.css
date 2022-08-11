@@ -1,23 +1,5 @@
-/* body {
-    color: red;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
 
-h1{
-    color: blue;
+body{
+    font-family: 'Figtree', sans-serif;
 }
-
-h2{
-    color:blueviolet;
-}
-
-/* by # we can select id from tags and 
-put specific css to tha tag only*/
-#lib-header
-{
-    color: gray;
-}
- /* we can select class attribute with . */
-
- .para{
-    color: brown;
- }
