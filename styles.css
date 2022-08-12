@@ -5,6 +5,8 @@
 } */
 :root{
     --primary-color:#1d4ed8;
+    --dark-grey:#64748b;
+    --off-white:#cbd5e1;
 }
 body{
     font-family: 'Figtree', sans-serif;
@@ -65,6 +67,7 @@ hr{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 
 }
 
@@ -89,3 +92,43 @@ hr{
 .navigation .link-active{
     font-weight: bold;
 }
+/* header */
+
+.hero{
+    padding: 0.5rem;
+}
+
+.hero .hero-img{
+    max-width: 400px;
+    display: block ;
+    margin: auto;
+}
+
+.hero .hero-head{
+    font-size:2rem;
+    padding-top: 1.5rem;
+    color: var(--dark-grey);
+    text-align: center;
+}
+
+/* or we can create a class in span
+tag and add color via that class in a tag 
+check notes or video for that 
+ */
+
+ /* section now */
+ /* footer now */
+
+ .section{
+    padding: 2rem;
+ }
+
+ .section h1{
+    text-align: center;
+ }
+
+ .ow{
+    background-color: var(--off-white);
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius:1rem ;
+ }
