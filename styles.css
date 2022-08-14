@@ -37,7 +37,8 @@ hr{
 /* links */
 .link{
      text-decoration: none;
-     padding: 0.5rem 1rem;
+     padding: .5rem 1rem;
+     
 }
 
 .link-primary{
@@ -70,7 +71,7 @@ hr{
     color: white;
      padding: 1rem;
     border-bottom-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    /* border-top-right-radius: 1rem; */
     /* border-radius: 1rem; */
 
 }
@@ -99,7 +100,7 @@ hr{
 /* header */
 
 .hero{
-    padding: 0.5rem;
+    padding: 1.5rem;
 }
 
 .hero .hero-img{
@@ -152,6 +153,18 @@ check notes or video for that
 
  }
 
+.footer .footer-header{
+    font-weight:bold;
+    font-size: large;
+
+}
+
  .footer ul{
     padding-inline-start:0px ;
+ }
+
+ /* space class for padding in projects section between buttons */
+
+ .margin-md{
+        margin:2rem 
  }
